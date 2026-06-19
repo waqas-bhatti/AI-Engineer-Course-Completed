@@ -177,10 +177,10 @@ else:
 """
 # ===========================================
 """
-`ask_ai()` function use karke ek Q&A script banao jo:
-- 5 alag alag questions puchhe AI se
-- Har question ke tokens aur cost log kare
-- End mein total cost print kare
+`ask_ai()` Create a Q&A script using functions that::
+- Asks 5 different questions to an AI.
+- Logs the tokens used and cost for each question.
+- Prints the total cost at the end.
 Topics: Python, AI, Programming, etc."""
 # ================Solution====================
 from openai import OpenAI
