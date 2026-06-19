@@ -16,7 +16,7 @@ import json
 
 load_dotenv()
 client = OpenAI(
-    api_key=os.getenv("PUT THE API KEY"),
+    api_key=os.getenv("KEY_OF_LONGCAT_API_KEY"),
     base_url="https://api.longcat.chat/openai"
 )
 PROMPTS_FILE = "my_prompts.json"
