@@ -93,5 +93,5 @@ def streaming_chat(system_prompt="AI Your Very Helpful"):
         print()  # New line after response complete
         conversation.append({"role": "assistant", "content": full_response})
 
-# Run karo
+# Run 
 streaming_chat("You are a friendly Python tutor. Explain in Roman Urdu.")
