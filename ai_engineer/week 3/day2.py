@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv("2_KEY_OF_LONGCAT_API_KEY"), base_url="https://api.longcat.chat/openai")
+client = OpenAI(api_key=os.getenv("API_KEY"), base_url="https://api.longcat.chat/openai")
 MODEL = "LongCat-2.0-Preview"
 
 # ─────────────────────────────────────────
